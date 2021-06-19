@@ -6,6 +6,7 @@
     android:orientation="vertical"
     android:background="#FFF1F3FC"
     android:layout_height="match_parent"
+
     tools:context=".Fragments.ExpenseFragment">
 
     <androidx.cardview.widget.CardView
@@ -47,7 +48,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:textAppearanceMedium"
-                    android:textColor="@color/black"
+                    android:textColor="@color/expense_ammount"
                     android:text="0000.00"/>
 
 

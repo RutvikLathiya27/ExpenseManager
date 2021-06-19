@@ -5,6 +5,8 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
+    android:background="#FFF1F3FC"
+
     tools:context=".Fragments.DashBoardFragment">
 
     <!-- TODO: Update blank fragment layout -->

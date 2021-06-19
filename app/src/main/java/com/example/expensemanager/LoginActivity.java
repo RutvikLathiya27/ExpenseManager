@@ -56,7 +56,7 @@ public class LoginActivity extends AppCompatActivity {
         mEmail= findViewById(R.id.etEmail);
         mPassword= findViewById(R.id.etPassword);
         btnLogin= findViewById(R.id.btnLogin);
-        mForgotPassword= findViewById(R.id.tvForgotPassword);
+//        mForgotPassword= findViewById(R.id.tvForgotPassword);
         mRegistration= findViewById(R.id.tvRegister);
 
 
@@ -116,13 +116,13 @@ public class LoginActivity extends AppCompatActivity {
 
         //Reset Password
 
-        mForgotPassword.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                startActivity(new Intent(getApplicationContext(), ResetActivity.class));
-            }
-        });
+//        mForgotPassword.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//
+//                startActivity(new Intent(getApplicationContext(), ResetActivity.class));
+//            }
+//        });
 
     }
 
